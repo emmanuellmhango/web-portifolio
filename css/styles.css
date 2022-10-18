@@ -53,7 +53,7 @@ body {
 }
 
 .main-menu {
-  margin: 50px 15px 0 15px;
+  margin: 0 15px;
 }
 
 .introduction {
@@ -355,6 +355,7 @@ body {
 
 .footer {
   margin-top: 30px;
+  background-color: #d9d6d0;
 }
 
 .partners {
@@ -387,7 +388,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  margin-bottom: 50px;
 }
 
 .footer-ul-li1 {
@@ -433,10 +433,10 @@ body {
 
    .menu {
     display: block;
-    list-style-type: none;
     padding: 0;
     margin: 0;
     width: 100%;
+    text-align: right;
   }
 
   .nav-link {
@@ -570,7 +570,6 @@ body {
     font-weight: 500;
   }
 
-  
  .introduction {
     width: 70%;
     margin-left: auto;
@@ -578,5 +577,63 @@ body {
     padding-left: 20px;
     padding-bottom: 20px;
   }
+ 
+ .partners {
+    background-color: #272a31;
+    color: rgb(236, 233, 233);
+    text-align: center;
+    padding-bottom: 30px;
+  }
 
+  .sponsors {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 32px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #777a79;
+  }
+
+  .conference-card-footer {
+    padding-top: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: #918d8d;
+  }
+
+  .last-footer {
+    width: 100%;
+    background-color: #d9d6d0;
+  }
+  .footer-ul {
+    list-style-type: none;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    padding-bottom:50px;
+  }
+  
+  .footer-ul-li1 {
+    font-weight: bolder;
+    width: 40%;
+    padding-right: 20px;
+  }
+
+  .small-text {
+    font-size: 12px;
+    color: #918d8d;
+  }
+
+  .footer-text-span {
+    color: #646466;
+    font-weight: bold;
+  }
+
+  .logo {
+    width: 30%;
+  }
 }
