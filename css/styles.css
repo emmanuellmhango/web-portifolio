@@ -569,7 +569,7 @@ body {
     font-weight: 500;
   }
 
- .introduction {
+  .introduction {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
@@ -607,15 +607,16 @@ body {
     width: 100%;
     background-color: #d9d6d0;
   }
+
   .footer-ul {
     list-style-type: none;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
-    padding-bottom:50px;
+    padding-bottom: 50px;
   }
-  
+
   .footer-ul-li1 {
     font-weight: bolder;
     width: 40%;
@@ -649,8 +650,8 @@ body {
   }
 
   .date {
-    margin-top: 10px; 
-    color: #777a79; 
+    margin-top: 10px;
+    color: #777a79;
     padding-bottom: 50px;
     font-size: 18px;
   }
@@ -697,5 +698,4 @@ body {
     font-size: 28px;
     font-weight: 900;
   }
-
 }
