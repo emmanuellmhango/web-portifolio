@@ -457,11 +457,6 @@ body {
     margin: 0;
   }
 
-  .introduction {
-    margin: 50px 100px 0 100px;
-    padding-bottom: 20px;
-  }
-
   .mobile {
     display: none;
   }
@@ -581,8 +576,8 @@ body {
     padding-left: 20px;
     padding-bottom: 20px;
   }
- 
- .partners {
+
+  .partners {
     background-color: #272a31;
     color: rgb(236, 233, 233);
     text-align: center;
