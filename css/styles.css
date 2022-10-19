@@ -6,6 +6,54 @@ body {
   overflow-x: hidden;
 }
 
+.navigation-overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(219, 216, 216);
+  background-color: rgba(209, 205, 205, 0.9);
+  transition: 0.5s;
+}
+  
+.navigation-overlay-content {
+  position: relative;
+  top: 15%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 36px;
+  overflow: hidden;
+}
+
+.navigation-overlay-content > div {
+  padding: 10px;
+}
+
+.navigation-overlay .closebtnx {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 48px;
+  text-decoration: none;
+  color: #51534f;
+}
+
+.navigation-overlay a:hover {
+  color: #ec5242;
+  font-size: 50px;
+}
+
+.navigation-overlay a:focus,
+.navigation-overlay a:active {
+  color: red;
+  font-size: 52px;
+  font-weight: bolder;
+}
+
 .active {
   color: #ec5242;
 }

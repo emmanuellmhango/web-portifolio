@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Code 101 Web Tutorials</title>
 </head>
-<body>
+<body id="body">
     <header class="header">
         <div class="top-links">
             <ul class="top-links-menu">
@@ -20,7 +20,17 @@
                 <li>Logout</li>
             </ul>
         </div>
-
+        <div id="myNav" class="navigation-overlay">
+            <a href="javascript:void(0)" class="closebtnx">&times;</a>
+            <div class="navigation-overlay-content">
+                <div class="nav-link"><a href="./about.html" class="link active">About</a></div>
+                <div class="nav-link"><a href="#" class="link">Program</a></div>
+                <div class="nav-link"><a href="#" class="link">Join</a></div>
+                <div class="nav-link"><a href="#" class="link">Sponsor</a></div>
+                <div class="nav-link"><a href="#" class="link">News</a></div>
+                <div class="nav-link special"><a href="#" class="link">Conference</a></div>
+            </div>
+        </div>
         <div class="main-menu">
             <nav class="navigation-bar">
                 <div class="logo computer"><a href="index.html"><img src="./images/logo.jpg" alt="Logo"></a></div>
@@ -33,7 +43,7 @@
                     <div class="nav-link special"><a href="#" class="link">Conference</a></div>
                 </div>
             </nav>
-          <i class="fa fa-bars fa-2x choose-screen" id="mobile-menu" style="color: #383b38;"></i>&nbsp;
+            <i class="fa fa-bars fa-2x choose-screen" id="mobile-menu" style="color: #383b38; cursor: pointer; margin-left: 0;"></i>&nbsp;
         </div>
 
         <div class="introduction-about">
@@ -120,6 +130,6 @@
             </ul>
         </div>
     </footer>
-
+  <script src="js/app.js"></script>
 </body>
 </html>
