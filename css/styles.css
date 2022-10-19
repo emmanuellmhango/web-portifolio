@@ -368,6 +368,12 @@ body {
   text-align: center;
 }
 
+.footer-about-us {
+  background-color: #272a31;
+  color: rgb(252, 252, 249);
+  text-align: left;
+}
+
 .sponsors {
   list-style-type: none;
   padding: 0;
