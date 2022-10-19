@@ -61,11 +61,11 @@ menuClose.addEventListener('click', () => {
 
 window.addEventListener('resize', () => {
   if (window.matchMedia('(min-width: 768px)').matches) {
-  document.getElementById('mobile-menu').style.display = 'none';
-  document.getElementById('body').style.overflow = 'visible';
-  document.getElementById('myNav').style.width = '0%';
+    document.getElementById('mobile-menu').style.display = 'none';
+    document.getElementById('body').style.overflow = 'visible';
+    document.getElementById('myNav').style.width = '0%';
   } else {
-  document.getElementById('mobile-menu').style.display = 'block';
+    document.getElementById('mobile-menu').style.display = 'block';
   }
 });
 
