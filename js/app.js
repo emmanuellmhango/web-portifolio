@@ -80,7 +80,7 @@ speakers.forEach((data) => {
           <li class="speaker-details-name">${data.name}</li>
           <li class="speaker-details-position">
             ${data.position} <br>
-            <span class="line-speaker"></span>
+            <span class="line-speaker-comp"></span>
           </li>
           <li class="speaker-details-description">
             ${data.description} 

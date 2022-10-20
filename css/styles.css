@@ -55,12 +55,15 @@ body {
 }
 
 .active {
+  text-decoration: none;
   color: #ec5242;
 }
 
 .special {
   border: 4px solid #ec5242;
   padding: 8px;
+  display: flex;
+  justify-content: center;
 }
 
 .bg-image {
@@ -89,7 +92,13 @@ body {
   margin-right: auto;
   margin-left: auto;
   align-items: center;
+  background-color: #fff;
 }
+/*
+.main {
+  background-image: url('../images/pattern_bg.png');
+  background-repeat: repeat;
+}*/
 
 .choose-screen {
   float: left;
@@ -112,7 +121,7 @@ body {
 }
 
 .moto {
-  font-size: 28px;
+  font-size: 40px;
   color: #ec5242;
 }
 
@@ -131,7 +140,10 @@ body {
 
 .home-page-description {
   margin-top: 20px;
-  border: 1px solid #d9d6d0;
+  border: 2px solid #f3f3f2;
+  border-radius: 3px;
+  background-color: rgb(239, 239, 237);
+  color: #5b5b5c;
 }
 
 .home-page-description-about {
@@ -139,6 +151,7 @@ body {
   border: 1px solid #d9d6d0;
   background-color: #fff;
   border-radius: 4px;
+  color:  #464747;
 }
 
 .date {
@@ -148,11 +161,21 @@ body {
 .email {
   font-weight: bold;
   text-decoration: underline;
+  color:  #464747;
+}
+
+.blank-div {
+  padding-bottom: 30px;
+}
+
+.blank-div1 {
+  padding-top: 10px;
 }
 
 .web-date {
   font-weight: bolder;
   font-size: 26px;
+  color: #777a79;
 }
 
 .venue {
@@ -161,6 +184,13 @@ body {
 
 .venue-about {
   padding-top: 10px;
+  color:  #464747;
+}
+
+.programs-div {
+  height: 100%;
+  background-image: url('../images/pattern_bg.png');
+  background-repeat: repeat;
 }
 
 .menu {
@@ -171,8 +201,6 @@ body {
   list-style-type: none;
   overflow: hidden;
   float: right;
-  display: inline;
-  font-family: 'Lato', sans-serif;
   margin-top: 10px;
   margin-right: 15%;
 }
@@ -186,7 +214,6 @@ body {
   margin: 0;
   padding-top: 0;
   background-color: #272a31;
-  padding-bottom: 10px;
 }
 
 .main-program-title {
@@ -214,9 +241,12 @@ body {
   width: 91%;
   margin-left: auto;
   margin-right: auto;
-  background-color: #525050;
+  background-color: rgba(59, 64, 70, 0.7);
   margin-bottom: 10px;
   padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .program-content {
@@ -241,9 +271,9 @@ body {
 .program-title {
   width: 35%;
   margin: auto;
-  font-size: 20px;
+  font-size: 17px;
   color: #ec5242;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .program-description {
@@ -290,9 +320,6 @@ body {
 }
 
 .picture {
-  background-image: url("../images/box-img.jpg");
-  background-position-x: left;
-  background-repeat: no-repeat;
   width: 30%;
   display: flex;
   justify-content: center;
@@ -300,6 +327,10 @@ body {
 
 .img-style {
   margin-top: 10px;
+  padding-left: 10px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
 }
 
 .speaker-content {
@@ -316,13 +347,19 @@ body {
 .speaker-details-name {
   font-size: 18px;
   font-weight: 800;
+  padding-left: 7px;
 }
 
 .speaker-details-position {
   font-size: 16px;
   font-style: italic;
   color: #ec5242;
-  margin-top: 5px;
+  margin-top: 2px;
+  padding-left: 7px;
+}
+
+.speaker-details-description {
+  padding-left: 7px;
 }
 
 .line-speaker {
@@ -331,6 +368,18 @@ body {
   border: 0;
   border-top: 2px solid #d3d3d3;
   margin: 1em 0;
+  padding: 0;
+  width: 20px;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.line-speaker-comp {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 2px solid #d3d3d3;
+  margin: 0.2em 0;
   padding: 0;
   width: 20px;
   margin-right: auto;
@@ -355,14 +404,20 @@ body {
   width: 100%;
 }
 
+.mikail {
+  font-size: 16px;
+}
+
 .conference {
   margin: 0 15px;
+  color: #464747;
 }
 
 .conference-card {
   font-size: 18px;
   font-weight: 700;
   text-align: center;
+  color: #464747;
 }
 
 .conference-card-footer {
@@ -392,6 +447,11 @@ body {
   margin-top: 30px;
 }
 
+.far-we-have {
+  color: #777a79;
+  font-size: 17px;
+}
+
 .center {
   text-align: center;
 }
@@ -401,12 +461,12 @@ body {
 }
 
 .footer {
-  margin-top: 30px;
+  margin-top: 0;
   background-color: #d9d6d0;
 }
 
 .partners {
-  background-color: #272a31;
+  background-color: rgb(65,66,70);
   color: rgb(236, 233, 233);
   text-align: center;
 }
@@ -458,6 +518,7 @@ body {
 
 .link {
   text-decoration: none;
+  color: rgb(120,120,120);
 }
 
 @media screen and (min-width: 768px) {
@@ -498,11 +559,16 @@ body {
     font-weight: 700;
   }
 
+  .nav-link-special {
+    display: inline;
+    font-weight: 700;
+  }
+
   .main-menu {
-    padding-top: 10px;
-    background-color: #fff;
     width: 100vw;
-    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
   }
 
   .mobile {
@@ -511,9 +577,11 @@ body {
 
   .home-page-description {
     margin-top: 20px;
-    border: 1px solid #b9b9b6;
-    width: 50%;
-    color: #777a79;
+    border: 2px solid #f3f3f2;
+    border-radius: 3px;
+    width: 60%;
+    background-color: rgb(239, 239, 237);
+    color: #5b5b5c;
   }
 
   .computer {
@@ -521,16 +589,16 @@ body {
   }
 
   .web-date {
-    font-weight: bolder;
+    font-weight: 900;
     font-size: 26px;
-    color: #777a79;
+    color: #494b4a;
   }
 
   .venue {
     margin-top: -20px;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 400;
-    color: #777a79;
+    color: #414242;
   }
 
   .bg-image {
@@ -543,7 +611,7 @@ body {
   .computer-programs {
     display: flex;
     flex-direction: row;
-    width: 72%;
+    width: 73%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -553,9 +621,11 @@ body {
     width: 16%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #525050;
+    background-color: rgba(59, 64, 70, 0.6);
     margin-bottom: 10px;
-    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
   }
 
   .program-content {
@@ -571,33 +641,30 @@ body {
   .program-content li {
     display: inline;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 20px;
   }
 
   .heading {
-    color: #ec5242;
-    font-weight: 900;
-    font-size: 46px;
+    color: #e63a27;
+    font-weight: bolder;
+    font-size: 52px;
     margin-top: -20px;
   }
 
   .program-icon {
-    padding-top: 15px;
+    padding-top: 5px;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .program-title {
     width: 100%;
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 17px;
     color: #ec5242;
-    font-weight: 800;
+    font-weight: 600;
   }
 
   .program-description {
+    margin-top: 10px;
     width: 100%;
   }
 
@@ -607,6 +674,8 @@ body {
     width: 100%;
     margin-top: 30px;
     font-weight: 500;
+    padding-bottom: 50px;
+    padding-top: 30px;
   }
 
   .see-all-text {
@@ -626,7 +695,7 @@ body {
   }
 
   .partners {
-    background-color: #272a31;
+    background-color: rgb(65,66,70);
     color: rgb(236, 233, 233);
     text-align: center;
     padding-bottom: 30px;
@@ -637,7 +706,7 @@ body {
     padding: 0;
     margin: 0;
     font-size: 32px;
-    width: 80%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
     color: #777a79;
@@ -658,17 +727,24 @@ body {
 
   .footer-ul {
     list-style-type: none;
-    width: 50%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
     padding-bottom: 50px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
   }
 
   .footer-ul-li1 {
     font-weight: bolder;
-    width: 40%;
-    padding-right: 20px;
+    padding-right: 5px;
+  }
+
+  .footer-ul-li2 {
+    padding-left: 5px;
+    margin-top: 20px;
   }
 
   .small-text {
@@ -693,8 +769,8 @@ body {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-    color: #918d8d;
-    font-size: 18px;
+    color: #5b5b5c;
+    font-size: 16px;
   }
 
   .date {
@@ -727,9 +803,11 @@ body {
 
   .event2 {
     background-image: url('../images/conference2.jpg');
+    background-repeat: no-repeat;
     width: 488px;
     height: 188px;
     margin-left: 20px;
+    padding-bottom: 30px;
   }
 
   .img-overlay {
@@ -745,5 +823,22 @@ body {
   .event-year {
     font-size: 28px;
     font-weight: 900;
+  }
+
+  .speaker-content {
+    width: 70%;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .speaker {
+    display: flex;
+    flex-direction: row;
+    width: 91%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 10px;
   }
 }
