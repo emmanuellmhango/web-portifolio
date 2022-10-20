@@ -422,10 +422,10 @@ body {
 
 .conference-card-footer {
   padding-top: 30px;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
   text-align: center;
-  color: #d3d3d3;
+  color: #918d8d;
 }
 
 .img-about-logo {
@@ -705,7 +705,7 @@ body {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    font-size: 32px;
+    font-size: 24px;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
@@ -714,7 +714,7 @@ body {
 
   .conference-card-footer {
     padding-top: 30px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     text-align: center;
     color: #918d8d;
