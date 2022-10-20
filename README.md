@@ -25,7 +25,7 @@
 
 ### My Contacts
 - Insta - [Github: emmanuellmhango](https://github.com/emmanuellmhango/)
-- [Email: emmanuellmhango@gmail.com](mailto://emmanuellmhango@gmail.com)
+- Email - [emmanuellmhango@gmail.com](mailto://emmanuellmhango@gmail.com)
 
 ### Original Design
 > Original design idea by [Cindy Shin in Behance] (https://www.behance.net/adagio07).
