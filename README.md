@@ -9,8 +9,8 @@
 
 ### Getting Started
 
-** The project is built using HTML, CSS and Javascript. Download the files and unzip them to any location on your computer.**
-** Open the index.html using any of your favorite browser.**
+> The project is built using HTML, CSS and Javascript. Download the files and unzip them to any location on your computer.
+> Open the index.html using any of your favorite browser.
 
 ### Prerequisites
 - Any modern web browser
