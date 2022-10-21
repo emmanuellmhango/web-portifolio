@@ -21,7 +21,7 @@
 - Open index.html file with your desired web browser
 
 ### Web Link
-> [www.github.com/emmanuellmhango/web-portifolio](https://github.com/emmanuellmhango/web-portifolio)
+> [www.github.com/emmanuellmhango/web-portifolio](https://emmanuellmhango.github.io/web-portifolio/)
 
 ### My Contacts
 - Insta - [Github: emmanuellmhango](https://github.com/emmanuellmhango/)
