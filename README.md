@@ -20,8 +20,9 @@
 - Unzip the files to your desired location
 - Open index.html file with your desired web browser
 
-### Web Link
-> [www.github.com/emmanuellmhango/web-portifolio](https://emmanuellmhango.github.io/web-portifolio/)
+### Demo Link
+
+> [CODE 101 Web Tutorials](https://emmanuellmhango.github.io/web-portifolio/)
 
 ### My Contacts
 - Insta - [Github: emmanuellmhango](https://github.com/emmanuellmhango/)
