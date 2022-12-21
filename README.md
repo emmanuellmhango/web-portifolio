@@ -32,6 +32,6 @@
 
 #### 📝 License
 
-> This project is [Creative Commons license of the design](./LICENSE) licensed.
+> This project is [Creative Commons license of the design](https://creativecommons.org/licenses/by/4.0/) licensed.
 
 > The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.
